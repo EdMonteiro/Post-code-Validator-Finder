@@ -1,0 +1,31 @@
+body {
+  background-color: #FF3A3A;
+  background-image: -webkit-linear-gradient(150deg, #FF3A3A 35%, #d10101 35%);
+  min-height: 750px;
+  color: white; }
+
+.container {
+  padding-top: 3em; }
+  .container img {
+    float: right; }
+  .container p {
+    font-size: 1.3rem;
+    padding-top: 3em; }
+  .container label {
+    padding-top: 3em; }
+  .container input {
+    max-width: 30rem; }
+  .container .form-control:focus {
+    border-color: #ffac00;
+    box-shadow: inset 0 2px 2px #ffac00, 0 0 8px #ffac00; }
+  .container .btn {
+    background-color: #ffac00; }
+
+@media (min-width: 768px) {
+  body {
+    min-height: 1024px; } }
+@media (min-width: 992px) {
+  body {
+    min-height: 1366px; } }
+
+/*# sourceMappingURL=main.css.map */
